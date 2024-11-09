@@ -1,0 +1,1 @@
+var json_KepalaDesaLayansari_13 = {"type":"FeatureCollection","name":"KepalaDesaLayansari_13","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Nama":"Rumah Kepala Desa Layansari"},"geometry":{"type":"Point","coordinates":[108.86720824854504,-7.548677376534093]}}]}

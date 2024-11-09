@@ -1,0 +1,1 @@
+var json_KlinikSahabat_17 = {"type":"FeatureCollection","name":"KlinikSahabat_17","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Nama":"Klinik Sahabat"},"geometry":{"type":"Point","coordinates":[108.85801756593915,-7.542359585834571]}}]}

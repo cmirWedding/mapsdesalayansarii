@@ -1,0 +1,1 @@
+var json_KantorDesaLayansari_16 = {"type":"FeatureCollection","name":"KantorDesaLayansari_16","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Nama":"Kantor Desa Layansari"},"geometry":{"type":"Point","coordinates":[108.857270925062039,-7.547855418219115]}}]}

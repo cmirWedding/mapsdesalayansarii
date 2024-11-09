@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/gadm41_IDNADM_ADM_4_1.js"></script><script src="layers/RW_2.js"></script><script src="layers/Clipped_3.js"></script><script src="layers/sawah_4.js"></script><script src="layers/Kuburan_5.js"></script><script src="layers/RTDusunWungurja_6.js"></script><script src="layers/RtDusunKedungringin_7.js"></script><script src="layers/RtDusunLentong_8.js"></script><script src="layers/RTDusunPentasan_9.js"></script><script src="layers/Lapangan_10.js"></script><script src="layers/MasjidMushola_11.js"></script><script src="layers/RumahKetuaRt_12.js"></script><script src="layers/KepalaDesaLayansari_13.js"></script><script src="layers/Rumahkepalartrw_14.js"></script><script src="layers/Pendidikan_15.js"></script><script src="layers/KantorDesaLayansari_16.js"></script><script src="layers/KlinikSahabat_17.js"></script><script src="layers/RumahSaya_18.js"></script><script src="layers/RtDusunWungusari_19.js"></script><script src="layers/RtDusunCawilayan_20.js"></script><script src="layers/RtDusunTegalsari_21.js"></script><script src="layers/Clipped_22.js"></script><script src="layers/Jln_23.js"></script><script src="layers/UMKM_24.js"></script><script src="layers/RumahTetangga_25.js"></script>
+        <script src="styles/gadm41_IDNADM_ADM_4_1_style.js"></script><script src="styles/RW_2_style.js"></script><script src="styles/Clipped_3_style.js"></script><script src="styles/sawah_4_style.js"></script><script src="styles/Kuburan_5_style.js"></script><script src="styles/RTDusunWungurja_6_style.js"></script><script src="styles/RtDusunKedungringin_7_style.js"></script><script src="styles/RtDusunLentong_8_style.js"></script><script src="styles/RTDusunPentasan_9_style.js"></script><script src="styles/Lapangan_10_style.js"></script><script src="styles/MasjidMushola_11_style.js"></script><script src="styles/RumahKetuaRt_12_style.js"></script><script src="styles/KepalaDesaLayansari_13_style.js"></script><script src="styles/Rumahkepalartrw_14_style.js"></script><script src="styles/Pendidikan_15_style.js"></script><script src="styles/KantorDesaLayansari_16_style.js"></script><script src="styles/KlinikSahabat_17_style.js"></script><script src="styles/RumahSaya_18_style.js"></script><script src="styles/RtDusunWungusari_19_style.js"></script><script src="styles/RtDusunCawilayan_20_style.js"></script><script src="styles/RtDusunTegalsari_21_style.js"></script><script src="styles/Clipped_22_style.js"></script><script src="styles/Jln_23_style.js"></script><script src="styles/UMKM_24_style.js"></script><script src="styles/RumahTetangga_25_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
